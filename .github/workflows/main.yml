@@ -20,8 +20,8 @@ jobs:
         
     - name: Install dependencies
       run: |
-      npm install
-      npm install -g jest
+        npm install
+        npm install -g jest
       
     - name: Run tests
       run: npm test
